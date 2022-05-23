@@ -1,2 +1,2 @@
 # SudokuSolver
- A simple algorithm that efficiently solves the game of sudoku
+An algorithm that efficiently solves the game of sudoku using several different techniques.
