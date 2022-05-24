@@ -214,8 +214,8 @@ def solve(board):
 
     for i in range(1, 10):
         if valid(board, i, (row, col)):
-            #board[row][col] = i
-            insert_in(WIN, (row, col), i)
+            board[row][col] = i
+           
             if solve(board):
                 return True
 
