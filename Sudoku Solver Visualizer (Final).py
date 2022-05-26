@@ -366,7 +366,6 @@ def backtrack(board): #recursive helper function used to solve the sudoku using 
     board_copy = [[t for t in i] for i in board]
     for i in possible_vals[min_index]:
         board_copy[coords[min_index][0]][coords[min_index][1]] = i
-        print("1", end='')
         display_surface.blit(font.render(str(i), True, text_color, bg_color), positions[coords[min_index][0]][coords[min_index][1]])
         pygame.display.update()
         for event in pygame.event.get():
