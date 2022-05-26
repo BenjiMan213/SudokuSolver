@@ -1,7 +1,7 @@
 import pygame, sys
 from pygame.locals import *
 # pygame and sys for visual demonstration of how the board is solved
-import numpy
+import numpy as np
 # numpy for random number generation used only for generating randomized boards
 
 
